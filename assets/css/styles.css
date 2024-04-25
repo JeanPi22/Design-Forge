@@ -1,0 +1,164 @@
+html {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --secondary-font: "Manrope", sans-serif; 
+  --primary-color: #073141;
+  --secondary-color: #1D7293;
+  --text-card-color: #68818B;
+  --background-color: #F6FDFF;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  width: 19.2rem;
+  height: 5rem;
+  font-weight: bold;
+  font-size: 1.8rem; 
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+
+.nav {
+  /* width: 100vw; */
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.8rem; 
+}
+.nav__logo {
+  width: 20.4rem;
+}
+.nav_link__container {  
+  font-weight: 600;
+  font-size: 1.8rem;
+  display: flex;
+  list-style: none;
+}
+.nav__link {
+  padding: 3rem;
+}
+
+.main__banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem 0;
+}
+.main__banner--info p {
+  width: 80.5rem;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 6.4rem;
+  margin-bottom: 6rem;
+  color: var(--primary-color);
+}
+.main__banner--button {
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+  border: var(--secondary-color) solid .15rem;
+  margin-left: 2rem;
+}
+.main__banner--img {
+  width: 54.7rem;
+}
+
+.about {
+  width: 100rem;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  text-align: center;
+}
+.about__title {
+  font-family: var(--secondary-font);
+  font-size: 2.4rem;
+  font-weight: 900;
+  color: var(--secondary-color);
+  margin: 8rem 0 1.5rem 0;
+}
+.about__info {  
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+.about__icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.about__icons--title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: .5rem;
+  color: var(--primary-color);
+}
+.about__icons--info {
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  color: var(--primary-color);
+}
+
+.featured {
+  margin: 0 auto;
+  text-align: center;
+}
+.featured__info--title {
+  font-family: var(--secondary-font);
+  font-weight: 900;
+  font-size: 2.4rem;
+  color: var(--secondary-color);
+}
+.featured__info--desc {
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+  color: var(--primary-color);
+}
+.featured__collage {
+  margin: 0 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(38.2rem, 1fr));
+  gap: 2rem;
+}
+.featured__collage--card {
+  width: 38.2rem;
+  margin: 0 auto;
+}
+.featured__card {
+  display: flex;
+  justify-content: space-between;
+}
+.featured__card--artistcont {
+  display: flex;
+}
+.featured__card--artist {
+  display: flex;
+  align-items: center;
+  margin-top: .6rem;
+}
+.featured__card--artist:nth-child(2) {
+  margin-left: 2rem;
+}
+.featured__card--artist img {
+  margin-right: .5rem;
+}
+.featured__card--artist figcaption {
+  font-size: 1.8rem;
+  color: var(--text-card-color);
+}
+.featured__button {
+  margin-bottom: 10rem;  
+}
